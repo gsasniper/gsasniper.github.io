@@ -6,6 +6,10 @@
     background-color: rgb(214, 214, 224);
 }
 
+.about-us-page{
+    background-color: rgb(214, 214, 224);
+}
+
 .navbar{
     background-color: white;
     display: flex;
@@ -24,4 +28,11 @@
 }
 .home-content-div p{
     font-size: large;
+}
+
+.about-us-page h2{
+    margin-left: 0%;
+}
+.about-us-page li{
+    margin-left: 0%;
 }
