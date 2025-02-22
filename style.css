@@ -1,3 +1,8 @@
 .home-page{
     background-color: rgb(214, 214, 224);
 }
+
+.home-content-div{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
