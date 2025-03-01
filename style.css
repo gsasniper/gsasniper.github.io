@@ -46,3 +46,15 @@
     justify-content: center;
     align-items: center;
 }
+
+.guide-content-div button{
+    border-radius: auto;
+    padding: 1%;
+    margin: 1%;
+    background-color: white;
+    border-color: black;
+    border: none;
+    font-weight: bold;
+    font-size: none;
+    height: 1%;
+}
