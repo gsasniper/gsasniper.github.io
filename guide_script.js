@@ -4,7 +4,7 @@ const guideImages = [
     "images/placeholder3.png"
 ]
 
-const imageElement = document.getElementsById("guide-image");
+const imageElement = document.getElementById("guide-image");
 const prevButton = document.getElementById("prev-btn");
 const nextButton = document.getElementById("next-btn");
 
