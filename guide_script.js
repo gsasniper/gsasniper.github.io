@@ -5,7 +5,7 @@ const guideImages = [
 ]
 
 const imageElement = document.getElementsById("guide-image");
-const prevButton = document.getElementById("pre-btn");
+const prevButton = document.getElementById("prev-btn");
 const nextButton = document.getElementById("next-btn");
 
 let currentImgIndex = 0;
