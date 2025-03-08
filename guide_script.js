@@ -4,7 +4,7 @@ const guideImages = [
     "images/placeholder3.png"
 ]
 
-const imageElement = document.getElementById("guide-images");
+const imageElement = document.getElementsById("guide-image");
 const prevButton = document.getElementById("pre-btn");
 const nextButton = document.getElementById("next-btn");
 
@@ -14,6 +14,13 @@ function updateImage() {
     imageElement.src = guideImages[currentImgIndex];
 }
 
-nextButton.addEventListener
+nextButton.addEventListener("click", function(){
+    currentImgIndex =(currentImgIndex + 1) % guideImages.length
+    updateImage()
+});
+prevButton.addEventListener("click", function(){
+    currentImgIndex =(currentImgIndex - 1 + guideImages.length) % guideImages.length
+    updateImage()
+});
 
 updateImage();
