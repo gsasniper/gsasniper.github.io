@@ -18,6 +18,7 @@
     background-color: white;
     display: flex;
     justify-content: space-evenly;
+    border-radius: 10px;
     padding-top: 1%;
     padding-bottom: 1%;
 }
@@ -32,6 +33,22 @@
 }
 .home-content-div p{
     font-size: large;
+}
+
+.home-img{
+    border-radius: 15%;
+}
+
+.index-subtext-div{
+    background-color: white;
+    border-radius: 10px;
+    margin: 5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.index-subtext-div p{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .about-us-page h2{
