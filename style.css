@@ -40,7 +40,7 @@
 }
 
 .index-subtext-div{
-    background-color: white;
+    background-color: rgb(173, 171, 179);
     border-radius: 10px;
     margin: 5%;
     text-align: center;
@@ -49,6 +49,10 @@
 .index-subtext-div p{
     margin-left: 5%;
     margin-right: 5%;
+}
+.about-us-content-div {
+    background-color: rgb(173, 171, 179);
+    border-radius: 10px;
 }
 
 .about-us-page h2{
@@ -62,6 +66,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.guide-content-subtext {
+    background-color: rgb(173, 171, 179);
+    border-radius: 10px;
+    margin: 10%;
 }
 
 .guide-content-div button{
